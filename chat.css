@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-color: cyan;
+}
+.login_div{
+    border: 2px, solid, black;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    margin-top: 300px;
+}
+.main_div{
+    display: flex;
+}
+.image_div{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
