@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="chat_room.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>School Chat App - Rooms</title>
+</head>
+<body>
+    <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+     <h1>Trending Rooms</h1><br>
+     <h1 id="greeting"></h1>
+     <br><br>
+     <h3>Add Room :-</h3>
+     <br>
+     <input type="text" id="room_name" placeholder="Enter room name here" class="form-control"><br><br>
+     <button onclick="addRoom()" class="btn btn-info">Add Room</button>
+     <br>
+     <div id="rooms"></div>
+    <script src="chat_room.js"></script>
+</body>
+</html>
