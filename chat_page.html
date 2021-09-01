@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>School Chat App - Messages</title>
+</head>
+
+<body>
+    <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger d" onclick="logout()">Logout</button>
+        <div id="messages"></div>
+        <div class="form">
+            <input type="text" id="message" placeholder="Enter your message here" class="form-control">
+            <br><button onclick="send()" class="btn btn-info">Send Message</button>
+        </div>
+    <script src="chat_page.js"></script>
+</body>
+<style>
+    .d{
+        float: right;
+        margin: 10px;
+    }
+    .btn{
+        margin: 5px;
+    }
+    .form{
+        bottom: 0px;
+        width: 100%;
+        position: fixed;
+    }
+    body{
+        text-align: center;
+        background-color: aquamarine;
+        overflow: hidden;
+    }
+</style>
+</html>
